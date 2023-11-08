@@ -10,7 +10,6 @@
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: #333;
 }
 
 .logo{
@@ -98,6 +97,11 @@ header ul a{
 
 .hamburger .bar::after{
     bottom: -4.5px;
+}
+
+main{
+    background-color: #353;
+    height: 100vh;
 }
 
 
