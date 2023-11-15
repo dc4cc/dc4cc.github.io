@@ -8,5 +8,8 @@ window.addEventListener("mousemove", (e) => {
     xValue = e.clientX - window.innerWidth / 2;
     yValue = e.clientY - window.innerHeight / 2;
 
+    parallax_el.forEach((el) => {
+        el.style.transform = `translateX(calc(0% + ${-xValue}px)) translateY(calc(0% + ${yValue}px))`;
+    });
 
-})
+});
