@@ -31,3 +31,19 @@ function getYDistance(el) {
         window.innerHeight - document.querySelector(el).getBoundingClientRect().top
     );
 }
+
+
+// Show references upon switch change
+function switchChange() {
+    var refSwitch = document.getElementById("refSwitch");
+    var boolRef = refSwitch.checked;
+    var links = document.querySelectorAll("[id='link']");
+
+    for(var i = 0; i < links.length; i++) {
+        if (boolRef == true) {
+            links[i].style.visibility='visible';
+        } else {
+            links[i].style.visibility='hidden';
+        }    
+    }
+}
