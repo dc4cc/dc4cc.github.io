@@ -38,12 +38,15 @@ function switchChange() {
     var refSwitch = document.getElementById("refSwitch");
     var boolRef = refSwitch.checked;
     var links = document.querySelectorAll("[id='link']");
+    var refText = document.getElementById("refText");
 
     for(var i = 0; i < links.length; i++) {
         if (boolRef == true) {
             links[i].style.visibility='visible';
+            refText.innerHTML = "click to turn off references"
         } else {
             links[i].style.visibility='hidden';
+            refText.innerHTML = "click to turn on references"
         }    
     }
 }

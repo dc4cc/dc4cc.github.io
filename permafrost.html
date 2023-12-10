@@ -40,9 +40,7 @@
         <span class="line hide"></span>
 
         <div class="bottom-section hide">
-            <p>
-                <!-- <i class='bx bx-map'></i> Located in Vancouver British Columbia -->
-            </p>
+            <p class="ref-text" id="refText">click to turn on references</p>
                 <label class="switch">
                     <input type="checkbox" id="refSwitch" onclick="switchChange()">
                     <span class="slider"></span>
@@ -53,26 +51,34 @@
 
     <!-- References on Pages 2, 4 and 6 -->
         <div class="story-container"> 
-            <div> <img src="img/PastaOrDisaster/page1.jpg" class="page"> </div> 
-            <div> 
-                <a href="https://blog.alpineclubofcanada.ca/blog/2022/2/19/abbotpasslove" target="_blank" id="link" class="link" ><button><img src="img/link.svg" class="reference1"></button></a>
-                <a href="https://cdnsciencepub.com/doi/full/10.1139/as-2023-0016" target="_blank" id="link" class="link" ><button><img src="img/link.svg" class="reference2"></button></a>
-                <img src="img/PastaOrDisaster/page2.jpg" class="page"> 
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page1.jpg" class="page"> </div> 
+            <div class="page-holder"> 
+                <div class="link">
+                    <a href="https://blog.alpineclubofcanada.ca/blog/2022/2/19/abbotpasslove" target="_blank" id="link"><img src="img/link.png" class="reference1"></a>
+                    <a href="https://cdnsciencepub.com/doi/full/10.1139/as-2023-0016" target="_blank" id="link"><img src="img/link.png" class="reference2"></a>
+                </div>
+                <div>
+                    <img src="img/PastaOrDisaster/page2.jpg" class="page"> 
+                </div>
             </div>
-            <div> <img src="img/PastaOrDisaster/page3.jpg" class="page"> </div>
-            <div> 
-                <a href="https://www.nature.com/articles/s41467-018-08240-4" target="_blank" id="link" class="link" ><button><img src="img/link.svg" class="reference3"></button></a>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page3.jpg" class="page"> </div>
+            <div class="page-holder">
+                <div class="link">
+                    <a href="https://www.nature.com/articles/s41467-018-08240-4" target="_blank" id="link"><img src="img/link.png" class="reference3"></a>
+                </div>
                 <img src="img/PastaOrDisaster/page4.jpg" class="page"> 
             </div>
-            <div> <img src="img/PastaOrDisaster/page5.jpg" class="page"> </div>
-            <div> 
-                <a href="https://en.wikipedia.org/wiki/Latent_heat#References" target="_blank" id="link" class="link" ><button><img src="img/link.svg" class="reference4"></button></a>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page5.jpg" class="page"> </div>
+            <div class="page-holder"> 
+                <div class="link">
+                    <a href="https://en.wikipedia.org/wiki/Latent_heat#References" target="_blank" id="link"><img src="img/link.png" class="reference4"></a>
+                </div>
                 <img src="img/PastaOrDisaster/page6.jpg" class="page"> 
             </div>
-            <div> <img src="img/PastaOrDisaster/page7.jpg" class="page"> </div>
-            <div> <img src="img/PastaOrDisaster/page8.jpg" class="page"> </div>
-            <div> <img src="img/PastaOrDisaster/page9.jpg" class="page"> </div>
-            <div> <img src="img/PastaOrDisaster/page10.jpg" class="page"> </div>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page7.jpg" class="page"> </div>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page8.jpg" class="page"> </div>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page9.jpg" class="page"> </div>
+            <div class="page-holder"> <img src="img/PastaOrDisaster/page10.jpg" class="page"> </div>
         </div>
 
     <!-- Javascript Files -->
