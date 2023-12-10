@@ -10,6 +10,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    
 }
 
 ::selection{
@@ -57,56 +58,6 @@ header ul a{
 
 }
 
-.search a{
-    font-size: 1.05rem;
-    padding: 0 3rem;
-
-}
-
-.hamburger{
-    padding-left: 1.5rem;
-}
-
-.hamburger a{
-    padding: 0;
-    width: 37px;
-    height: 37px;
-    display: flex;
-    border-radius: 50%;
-    background-color: rgba(115, 115, 115, 0.7);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    justify-content: center;
-    align-items: center;
-}
-
-.hamburger .bar{
-   position: relative;
-   width: 52%;
-   height: 1.6px;
-   background-color: white;
-   border-radius: 2px;
-}
-
-.hamburger .bar::before, 
-.hamburger .bar::after{
-    content: ""; 
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    height: 100%;
-    background-color: inherit;
-    border-radius: 2px;
-}
-
-.hamburger .bar::before{
-    top: -4.5px;
-}
-
-.hamburger .bar::after{
-    bottom: -4.5px;
-}
 
 main{
     position: relative;
@@ -114,6 +65,7 @@ main{
     height: 100vh;
     overflow: hidden;
     background-color: white;
+    pointer-events: none;
 }
 
 .lake {
@@ -155,7 +107,7 @@ main{
 
 .comic-page {
     position: fixed;
-    z-index: 7;
+    z-index: 99999;
     height: auto;
     width: 28.9%;
     top: calc(6.6%);
@@ -165,13 +117,17 @@ main{
 .text {
     pointer-events: auto;
     position: absolute;
-    z-index: 7;
-    left: 25%;
-    top: 25%;
-    transform: translate(-50%, -50%);
+    z-index: 99999;
+    left: 15%;
+    top: 10%;
+    transform: translate(10%, -10%);
     text-align: center;
     text-transform: uppercase;
     color: rgb(63, 19, 19);
+}
+
+a{
+    z-index: 9999;
 }
 
 .text h2 {
@@ -186,12 +142,17 @@ main{
     line-height: 1;
 }
 
+.title-img {
+    width: 45%;
+    height: auto;
+}
+
 .parallax {
     pointer-events: none;
     transition: 0.45s cubic-bezier(0.2,0.49,0.32,0.99);
 }
 
-.vignette {
+/* .vignette {
     position: absolute;
     z-index: 8;
     width: 100%;
@@ -200,4 +161,4 @@ main{
     left: 0;
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(243, 242, 242, 1.0));
     pointer-events: none;
-}
+} */
