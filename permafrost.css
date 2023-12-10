@@ -118,7 +118,7 @@ nav ul{
 }
 
 .bottom-section .ref-text{
-    color: #202020;
+    color: #fff6f6;
     font-weight: 500;
     display: flex;
     padding-right: 2%;
@@ -130,7 +130,7 @@ nav ul{
 
 .scroll {
     position: absolute;
-    color: #202020;
+    color: #fff6f6;
     font-weight: 500;
     left: 50%;
     transform: translateX(-50%);
@@ -277,7 +277,7 @@ nav ul{
     width: 30px;
     left: 4px;
     bottom: 5px;
-    background-color: #ccc;
+    background-color: #e9e9e9;
     -webkit-transition: .4s;
     transition: .4s;
   }
