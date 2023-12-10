@@ -6,19 +6,29 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
+    /* z-index: 1; */
 }
 
 body{
     font-family: "Poppins", sans-serif;
-    
+z-index: 1;}
+
+html{
 }
 
 ::selection{
-    background-color: rgba(56, 113, 210, 0.477);
+    background-color: rgba(47, 50, 56, 0.477);
+    pointer-events: none;
+    z-index: 1;
 }
 
 .logo{
-    width: 100px;
+    position: fixed;
+    top: 3%;
+    left: 8%;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 3%;
 }
 
 header {
@@ -32,6 +42,10 @@ header {
     /* border-bottom: 1px solid rgba(255,255,255,0.1); */
 }
 
+p{
+    font-size: larger;
+}
+
 header nav{
     max-width: 1400px;
     margin: 0 auto;
@@ -39,6 +53,7 @@ header nav{
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-left: 11%;
 }
 
 header ul {
@@ -65,11 +80,12 @@ main{
     height: 100vh;
     overflow: hidden;
     background-color: white;
+    display: flex;
     pointer-events: none;
 }
 
 .lake {
-    position:fixed;
+    position: fixed;
     z-index: 2;
     height: auto; 
     width: 61%;
@@ -107,7 +123,7 @@ main{
 
 .comic-page {
     position: fixed;
-    z-index: 99999;
+    z-index: 9999;
     height: auto;
     width: 28.9%;
     top: calc(6.6%);
@@ -115,32 +131,14 @@ main{
 }
 
 .text {
-    pointer-events: auto;
-    position: absolute;
-    z-index: 99999;
-    left: 15%;
-    top: 10%;
-    transform: translate(10%, -10%);
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(63, 19, 19);
-}
-
-a{
+    /* pointer-events: auto; */
+    position: fixed;
     z-index: 9999;
+    top: calc(50.6%);
+    left: calc(57.65%);
+    /* transform: translate(10%, -10%); */
 }
 
-.text h2 {
-    font-weight: 300;
-    font-size: 1.5rem;
-    line-height: 1;
-}
-
-.text h1 {
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 1;
-}
 
 .title-img {
     width: 45%;
@@ -148,7 +146,7 @@ a{
 }
 
 .parallax {
-    pointer-events: none;
+    pointer-events: painted;
     transition: 0.45s cubic-bezier(0.2,0.49,0.32,0.99);
 }
 

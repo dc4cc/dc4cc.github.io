@@ -200,6 +200,15 @@ nav ul{
     visibility: hidden;
 }
 
+.home{
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 4%;
+}
+
 .reference1{
     position: absolute;
     float: left;
