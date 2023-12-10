@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-/* html { overflow-y: scroll; overflow-x:hidden; background-color: rgb(176, 156, 103);
-} */
-
 html { overflow-y: scroll; overflow-x:hidden; background-color: rgb(78, 79, 79);
 }
 
