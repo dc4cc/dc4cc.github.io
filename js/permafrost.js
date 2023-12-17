@@ -9,8 +9,8 @@ timeline.to(".image-wrap", {
     ease: "power4.inOut",
 }).to(
     ".image-wrap", {
-        height:"400px",
-        backgroundPosition: "20% 10%",
+        height:"395px",
+        backgroundPosition: "20% -10%",
         y: "0",
     }, 
     1.5
