@@ -99,7 +99,7 @@ main{
     z-index: 3;
     height: auto; 
     width: 47%;
-    top: calc(2%);
+    /* top: calc(2%); */
     left: calc(50%);
 }
 
@@ -131,19 +131,18 @@ main{
 }
 
 .comic-page {
-    position: fixed;
+    position: absolute;
     z-index: 9998;
     /* height: auto; */
     width: 55.9%;
-    top: 6.6%;
-    left: calc(51.0%);
+    transform: translate(91%, 8%);
 }
 
 .page-image {
     position: inherit;
     z-index: 9999;
     width: 55.5%;
-    top: calc(53.6%);
+    /* top: calc(53.6%); */
     left: calc(70.95%);
 
 }
@@ -162,7 +161,7 @@ main{
     position: inherit;
     width: 45%;
     height: auto;
-    top: calc(6.6%);
+    /* top: calc(6.6%); */
     left: calc(23.65%);
 }
 
