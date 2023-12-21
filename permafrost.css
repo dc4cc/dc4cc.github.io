@@ -220,11 +220,44 @@ nav ul{
     height: auto;
 }
 
-.link{
+.link {
+    visibility: hidden;
+}
+
+.link1{
     position: relative;
+    top: 59%;
+    left: 5.5%;
     float: left;
     z-index: 2;
-    visibility: hidden;
+    width: 40%;
+}
+
+.link2{
+    position: relative;
+    top: 92.5%;
+    left: 90.8%;
+    float: left;
+    z-index: 2;
+    width: 40%;
+}
+
+.link3{
+    position: relative;
+    top: 92.5%;
+    left: 90.8%;
+    float: left;
+    z-index: 2;
+    width: 40%;
+}
+
+.link4{
+    position: relative;
+    top: 77.4%;
+    left: 67%;
+    float: left;
+    z-index: 2;
+    width: 40%;
 }
 
 .home{
@@ -240,33 +273,26 @@ nav ul{
     position: absolute;
     float: left;
     z-index: 3;
-    transform: translate(136%, 1899%);
-    width: 40px;
+    width: 10%;
 
 }
 
 .reference2{
     position: absolute;
     z-index: 3;
-    transform: translate(2255%, 2978%);
-    width: 40px;
-    height: auto;
+    width: 10%;
 }
 
 .reference3{
     position: absolute;
     z-index: 3;
-    transform: translate(2255%, 2978%);
-    width: 40px;
-    height: auto;
+    width: 10%;
 }
 
 .reference4{
     position: absolute;
     z-index: 3;
-    transform: translate(1660%, 2494%);
-    width: 40px;
-    height: auto;
+    width: 10%;
 }
 
 .switch {
