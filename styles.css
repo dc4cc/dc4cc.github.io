@@ -112,37 +112,58 @@ main{
 
 }
 
+.page-holder {
+    position: relative;
+    z-index: 6;
+    height: auto;
+    width: 100%;
+    left: calc(0%);
+}
+
 .main-mountain {
     position: fixed;
     z-index: 6;
-    height: auto;
-    width: 90%;
-    left: calc(7%);
+    /* height: auto; */
+    width: 92%;
+    left: calc(4%);
+    top: calc(1%);
 
 }
 
 .comic-page {
     position: fixed;
+    z-index: 9998;
+    /* height: auto; */
+    width: 55.9%;
+    top: 6.6%;
+    left: calc(51.0%);
+}
+
+.page-image {
+    position: inherit;
     z-index: 9999;
-    height: auto;
-    width: 28.9%;
-    top: calc(6.6%);
-    left: calc(53.65%);
+    width: 55.5%;
+    top: calc(53.6%);
+    left: calc(70.95%);
+
 }
 
 .text {
     /* pointer-events: auto; */
-    position: fixed;
+    position: absolute;
     z-index: 9999;
     top: calc(50.6%);
-    left: calc(58.95%);
+    left: calc(8.95%);
     /* transform: translate(10%, -10%); */
 }
 
 
 .title-img {
+    position: inherit;
     width: 45%;
     height: auto;
+    top: calc(6.6%);
+    left: calc(23.65%);
 }
 
 .parallax {
