@@ -117,7 +117,14 @@ nav ul{
 .bottom-section{
     display: flex;
     justify-content: right;
+    margin-bottom: -9%;
 
+}
+
+.ref-info{
+    width: 1.5%;
+    margin-left: 0.3%;
+    margin-right: 0.3%;
 }
 
 .bottom-section .ref-text{
@@ -130,6 +137,19 @@ nav ul{
     
 }
 
+.bottom-section2 .ref-text2{
+    display: block;
+    justify-content: right;
+    color: #fff6f6;
+    font-weight: 300;
+    display: flex;
+    padding-right: 0%;
+    padding-top: 0.25%;
+    font-size: 90%;
+    text-align: right;
+    
+}
+
 
 .scroll {
     position: absolute;
@@ -137,19 +157,19 @@ nav ul{
     font-weight: 500;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 20%;
     height: 50px;
     font-size: larger;
 }
 
 .line {
     position: absolute;
-    width: 2px;
-    height: 100px;
+    width: 0.2%;
+    height: 20%;
     left: 50%;
     transform: translateX(-50%);
     bottom: 0;
-    background: #202020;
+    background: #ffffff;
 
 }
 
