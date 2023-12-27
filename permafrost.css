@@ -122,9 +122,11 @@ nav ul{
 }
 
 .ref-info{
-    width: 1.5%;
+    position: absolute;
+    width: 4.5%;
     margin-left: 0.3%;
     margin-right: 0.3%;
+    right: 45.5%;
 }
 
 .bottom-section .ref-text{
@@ -138,16 +140,14 @@ nav ul{
 }
 
 .bottom-section2 .ref-text2{
-    display: block;
-    justify-content: right;
     color: #fff6f6;
     font-weight: 300;
-    display: flex;
     padding-right: 0%;
     padding-top: 0.25%;
     font-size: 90%;
-    text-align: right;
-    
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
 }
 
 
