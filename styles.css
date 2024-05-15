@@ -33,11 +33,11 @@ html{
     left: 8%;
     margin-left: 5px;
     margin-top: 5px;
-    width: 3%;
+    width: 13%;
 }
 
 header {
-    position: absolute;
+    position: fixed;
     height: 60px;
     z-index: 9999;
     width: 100%;
@@ -51,30 +51,38 @@ p{
     font-size: larger;
 }
 
+header a.logo {
+    margin-right: auto; /* Push the logo to the left */
+    width: 5vw; /* Responsive logo size */
+    transition: width 0.3s; /* Smooth transition for resizing */
+}
+
 header nav{
-    max-width: 1400px;
+    /* max-width: 1600px; */
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
     justify-content: left;
     align-items: center;
+    justify-content: space-between; /* Space between logo and ul */
     margin-left: 11%;
 }
 
 header ul {
-    display: flex;
     list-style: none;
-    align-items: center;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-left: 11%; /* Add margin to the left of the ul */
 
 }
 
-header ul a{
+header ul li a{
     text-decoration: none;
-    color: rgb(8, 8, 8);
-    padding: 0 1.5rem;
-    text-transform: uppercase;
+    color: rgb(113, 112, 112); /* Change the color to dark grey */
     font-weight: 500;
-    font-size: 0.83rem;
+    font-size: 1vw; /* Responsive font size relative to viewport width */
+    /* text-transform: uppercase; */
+    transition: font-size 0.3s; /* Smooth transition for resizing */
 
 }
 
@@ -129,7 +137,7 @@ main{
     position: fixed;
     z-index: 6;
     /* height: auto; */
-    width: 102%;
+    width: 103%;
     left: calc(-1%);
     top: calc(-4%);
 
