@@ -10,7 +10,7 @@ timeline.to(".image-wrap", {
 }).to(
     ".image-wrap", {
         height:"395px",
-        backgroundPosition: "20% -10%",
+        backgroundPosition: "20% 0%",
         y: "0",
     }, 
     1.5
