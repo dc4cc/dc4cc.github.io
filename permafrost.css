@@ -396,7 +396,51 @@ nav.top-nav ul li a.about-link:hover {
     transform: translateX(21px);
   }
 
-  
+  .authorship {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 0.5rem;
+    color: #fff6f6;
+    text-align: justify;
+    line-height: 1.5;
+    width: 70%; /* Match the width of the comic page */
+    max-width: 1000px; /* Ensure it scales appropriately */
+    margin-left: auto;
+    margin-right: auto;
+    background: none; /* Remove background color */
+}
+
+.authorship a {
+    color: #fff6f6; /* Ensure the link color matches the text */
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.authorship a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.download-link,
+.feedback-link {
+    display: inline-flex;
+    align-items: center;
+    color: #fff6f6;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.download-link i,
+.feedback-link i {
+    margin-right: 5px;
+}
+
+.download-link:hover,
+.feedback-link:hover {
+    text-decoration: underline;
+}
+
 /* Optional: Media queries for finer control */
 @media (max-width: 1200px) {
   
